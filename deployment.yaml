@@ -50,8 +50,8 @@ spec:
  maxReplicas: 9 # 최대 9개까지 확장
  metrics:
  - type: Resource
-  resource:
-   name: cpu
-   target:
-    type: Utilization
-    averageUtilization: 50 # CPU 사용률 50% 초과 시 확장
+   resource:
+     name: cpu
+     target:
+       type: Utilization
+       averageUtilization: 50 # CPU 사용률 50% 초과 시 확장
